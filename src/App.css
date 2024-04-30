@@ -1,0 +1,106 @@
+.header {
+  height: 250px;
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header h1 {
+  margin-top: 0px;
+  font-size: 95px;
+  color: white;
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.form-div form > input {
+  width: 450px;
+  padding: 20px 20px;
+  border: none;
+  border-bottom: 1.5px solid blueviolet;
+}
+.form-div form > input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid blueviolet;
+}
+.form-div form > input:active {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+.form-div form > button {
+  padding: 10px 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px 5px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.todo-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.todo-div ul > li {
+  list-style: none;
+}
+.todoList-div {
+  width: 550px;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.li-style {
+  display: inline-block;
+  font-size: 24px;
+}
+.li-style-isDone {
+  text-decoration: line-through;
+}
+.edit-button {
+  padding: 10px 10px;
+  background-color: #03fc90;
+  border-radius: 5px 5px;
+  color: white;
+  border-style: none;
+}
+.done-button {
+  padding: 10px 10px;
+  background-color: #fcdb03;
+  border-radius: 5px 5px;
+  color: white;
+  border-style: none;
+}
+.delete-button {
+  padding: 10px 10px;
+  background-color: #fc0303;
+  border-radius: 5px 5px;
+  color: white;
+  border-style: none;
+}
+.edit-button:active {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+.done-button:active {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+.delete-button:active {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.error{
+  color: red;
+  text-align: center;
+}
+
+.sorting {
+  display: flex;
+  justify-content: center;
+}
+.sorting ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5px;
+}
